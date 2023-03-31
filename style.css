@@ -1,0 +1,293 @@
+/* .Main{
+    width: 400px;
+    height: 300vh;
+    background-color: aquamarine;
+    border-radius: 0px 50px 50px 0px;
+    border: 2px solid black;
+}
+.box{
+    width:50px;
+    height:150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    color:aliceblue;
+    padding-top: 10px;
+}
+.blue{
+    background-color: blue;
+    position: sticky;
+    top: 30px;
+    bottom: 50px;
+}
+.reco{
+    height: 800px;
+}
+.par{
+    border: 2px solid black;
+    height: 30%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+} */
+/* 
+.Main{
+    border:2px solid black;
+    height: 500px;
+    width:500px;
+    background-color: beige;
+    box-sizing: border-box;
+    padding-left:23px ;
+    padding-top: 220px;
+}
+.box{
+    height: 400px;
+    border: 2px;
+    width: 450px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.blue{
+    position: absolute;
+    transform:perspective(2000px) rotateX(70deg);
+    background-color:rgb(122, 122, 196);
+}
+.red{
+    position: absolute;
+    transform:perspective(2000px) rotateY(80deg);
+    background-color: red;
+    right:448px;
+    bottom: 260px;
+
+}
+.yellow{
+    position: absolute;
+    transform:perspective(2000px) rotateX(110deg);
+    background-color: yellow;
+    bottom: 415px;
+}
+.green{
+    position: absolute;
+    transform:perspective(2000px) rotateZ(90deg) rotateY(70deg);
+    background-color: green;
+}
+ */
+body{
+    margin: 0px;
+    align-items: center;
+    padding:20px 0 0 20px;
+    box-sizing: border-box;
+
+}
+/* .test{
+    height:200px;
+    text-align: center;
+    margin: 0px;
+    color:white;
+    border: 2px solid rgb(255, 255, 255);
+    background-image:linear-gradient(0deg,pink,rgb(0, 0, 0)) ;
+} */
+
+/* .main{
+    height: 100vh;
+    box-sizing: border-box;
+    border: 2px;
+    display: flex;
+    background-image: linear-gradient(to right,rgb(41, 41, 41),rgb(22, 21, 21));
+
+} */
+/* .box{
+    margin: 2px;
+    border: 2px;
+    width:200px;
+    height:200px ;
+}
+.p1{
+    background-image: radial-gradient(circle,yellow,orange,black);
+}
+.p2{
+    background-image: radial-gradient(circle,rgb(153, 145, 100),rgb(88, 88, 155),rgb(153, 89, 89),black);
+}
+.p3{
+    background-image: radial-gradient(circle,rgb(129, 121, 75),rgb(119, 71, 71),rgb(5, 4, 4));
+}
+.p4{
+    background-image: radial-gradient(circle,rgb(51, 139, 29),rgb(35, 140, 182),rgb(0, 0, 0));
+}
+.p5{
+    background-image: radial-gradient(circle,rgb(113, 58, 60),rgb(115, 16, 16),black);
+}
+.p6{
+    background-image: radial-gradient(circle,rgb(120, 82, 82),rgb(235, 162, 162),black);
+}
+.p7{
+    background-image: radial-gradient(circle,rgb(112, 84, 84),rgb(129, 75, 75),black);
+}
+.p8{
+    background-image: radial-gradient(circle,rgb(45, 45, 126),rgb(123, 123, 206),black);
+} */
+
+/* .shadowex{
+    text-shadow: 2px 5px 5px grey,2px 2px 4px red;
+    font-size: 50px;
+    color:rgb(132, 132, 132);
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 10px red;
+} */
+/* #Main{
+    width: 300px;
+    height: 300px;
+    border: 2px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(51, 50, 50);
+    border-radius: 10px;
+}
+div.upr{
+    height: 80%;
+    border: 2px;
+    background-image: url('/Screenshot\ 2023-03-26\ 214034.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+div.lwr{
+    height: 20%;
+    border: 2px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30px;
+    color: rgb(47, 103, 110);
+    text-shadow: 0px 2px 8px red;
+} */
+
+/* .main{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    transition:transform 3s,border-style 4s;
+    border: 10px rgb(133, 133, 229);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+    background-image: url('/Screenshot\ 2023-03-26\ 214034.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: dotted solid solid solid;
+}
+.main:hover{
+    transform: rotate(360deg);
+    border-style: solid dotted solid solid;
+} */
+
+/* .main{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    border: 5px black;
+    border-style: dotted solid solid solid;
+    animation-name: example; 
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:3;
+} */
+/* @keyframes example {
+    25%{
+        border-style: solid dotted solid solid;
+    }
+    75%{
+        border-style: solid solid dotted solid;
+    }
+    100%{
+        border-style: solid  solid solid dotted;
+    }
+} */
+/* html,body{
+    margin: 0px;
+}
+.main{
+    border:2px;
+    width:20%;
+    height: 10%;
+    display: flex;
+    animation-name:example;
+    animation-timing-function:ease-in-out;
+    animation-duration: 5s;
+}
+@keyframes example {
+    0%{
+        left:100px;
+    }
+    25%{
+        left:100px;
+    }
+    50%{
+        left:50px;
+        right:50px;
+    }
+    75%{
+        right:100px;
+    }
+    100%{
+        right:100px;
+    }
+}
+.Box{
+    border: 2px solid black;
+    width: 25%;
+    height: 20px;
+    background-color: rgb(0, 255, 0);
+}
+.b1{
+    border-right:none;
+    border-radius: 30% 0 0 30%;
+    background-image: radial-gradient(circle,red,yellow,rgb(0, 255, 0));
+}
+.b2{
+    border-left: none;
+    border-right: none;
+    background-image: radial-gradient(circle,red,yellow,rgb(0, 255, 0));
+}
+.b3{
+    border-left: none;
+    border-right: none;
+    background-image: radial-gradient(circle,red,yellow,rgb(0, 255, 0));
+}
+.b4{
+    border-left: none;
+    border-radius: 0 30% 30% 0;
+} */
+
+.main{
+    width:100px;
+    height:100px;
+    background-color: rgb(233, 120, 120);
+    position: relative;
+    animation-name: moveLikeSnake;
+    animation-duration: 4s;
+    transition: transform 4s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes moveLikeSnake {
+    0%{
+        transform:rotateX(90deg);
+        background-color: red;
+    }
+    100%{
+        transform:rotateY(180deg);
+        background-color: red;
+    }
+}
+.main:hover{
+    width: 200px;
+    height: 200px;
+    background-image: url('/Screenshot\ 2023-03-26\ 214034.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
